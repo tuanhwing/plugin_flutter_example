@@ -21,30 +21,48 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6E5-Te-62b">
                                 <rect key="frame" x="70" y="94" width="274" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="c5s-5D-UGL"/>
                                 </constraints>
-                                <state key="normal" title="Navigate New Controller"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Navigate New Controller">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="WV5-A6-tG6" kind="show" id="aSk-Gc-lbw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PB1-Mh-CLb">
-                                <rect key="frame" x="70" y="164" width="274" height="30"/>
-                                <state key="normal" title="Stream event To Flutter"/>
+                                <rect key="frame" x="70" y="164" width="274" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Lp7-Db-zO4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Stream event To Flutter">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="btnCallBackFlutter_TouchUpInside:" destination="g3e-1x-Y49" eventType="touchUpInside" id="P4l-RL-mqL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HpS-mO-P8o">
-                                <rect key="frame" x="70" y="214" width="274" height="30"/>
-                                <state key="normal" title="Dismiss"/>
+                                <rect key="frame" x="70" y="234" width="274" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="oSq-sx-C4T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Dismiss">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="btnDismiss_TouchUpInside:" destination="g3e-1x-Y49" eventType="touchUpInside" id="mTr-pX-9LE"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgC-Cx-Y3B">
-                                <rect key="frame" x="186" y="294" width="42" height="21"/>
+                                <rect key="frame" x="186" y="334" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -86,14 +104,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gw0-N4-vjI">
-                                <rect key="frame" x="180" y="433" width="54" height="30"/>
-                                <state key="normal" title="Dismiss"/>
+                                <rect key="frame" x="70" y="423" width="274" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hDI-DY-AgK"/>
+                                </constraints>
+                                <state key="normal" title="Dismiss">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="btnDismiss_TouchUpInside:" destination="WV5-A6-tG6" eventType="touchUpInside" id="Ha8-G3-qtW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4NE-fu-Y8n">
-                                <rect key="frame" x="186" y="362" width="42" height="21"/>
+                                <rect key="frame" x="186" y="352" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -104,6 +128,8 @@
                             <constraint firstItem="4NE-fu-Y8n" firstAttribute="centerX" secondItem="Zfp-Ms-K6k" secondAttribute="centerX" id="0RR-Ll-Y6S"/>
                             <constraint firstItem="Gw0-N4-vjI" firstAttribute="centerX" secondItem="Zfp-Ms-K6k" secondAttribute="centerX" id="XMy-Rc-2de"/>
                             <constraint firstItem="Gw0-N4-vjI" firstAttribute="centerY" secondItem="Zfp-Ms-K6k" secondAttribute="centerY" id="fZ0-bf-r3e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gw0-N4-vjI" secondAttribute="trailing" constant="50" id="gcV-hK-zhA"/>
+                            <constraint firstItem="Gw0-N4-vjI" firstAttribute="leading" secondItem="Zfp-Ms-K6k" secondAttribute="leadingMargin" constant="50" id="kVa-LK-9Ke"/>
                             <constraint firstItem="Gw0-N4-vjI" firstAttribute="top" secondItem="4NE-fu-Y8n" secondAttribute="bottom" constant="50" id="yfi-kX-n5b"/>
                         </constraints>
                     </view>
