@@ -16,6 +16,9 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
 
+  StreamSubscription _subscription;
+  final List<String> _strings = [];
+
   @override
   void initState() {
     super.initState();
@@ -27,8 +30,13 @@ class _MyAppState extends State<MyApp> {
     String platformVersion;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await PluginExample.platformVersion;
-      print(await PluginExample.showAlert());
+      platformVersion = await PluginExample().platformVersion;
+      _subscription = PluginExample().startListening((msg) {
+        setState(() {
+          _strings.add("${msg}");
+        });
+      });
+
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
@@ -44,14 +52,51 @@ class _MyAppState extends State<MyApp> {
   }
 
   @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+    _subscription.cancel();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Plugin example app'),
         ),
-        body: Center(
-          child: Text('Running on: $_platformVersion\n'),
+        body: Container(
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Text('Running on: $_platformVersion\n'),
+                RaisedButton(
+                  onPressed: () {
+                    PluginExample().showNative({'param1':'value1', 'param2':'value2'});
+                  },
+                  child: Text('Open Native'),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text('Stream events from Native:'),
+                ),
+
+                Container(
+                  height: 200,
+                  child: ListView.builder(
+                    itemCount: _strings.length,
+                    itemBuilder: (context, index) {
+                      return Container(
+                        color: Colors.black12,
+                        child: Text(" Event: ${_strings[index]}"),
+                      );
+                    },
+                  ),
+                )
+              ],
+            )
+          ),
         ),
       ),
     );

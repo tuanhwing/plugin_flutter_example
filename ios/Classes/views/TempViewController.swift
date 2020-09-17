@@ -13,9 +13,13 @@ class TempViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print ()
     }
 
-
+    @IBAction func btn_TouchUpInside(_ sender: Any) {
+        print("lolll--- btn_TouchUpInside");
+    }
+    
     /*
     // MARK: - Navigation
 
