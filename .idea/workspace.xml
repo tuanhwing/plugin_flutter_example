@@ -6,14 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="412a43fa-1707-42c8-a9f0-c8ab56d1558a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/Native.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/Native.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftPluginExamplePlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftPluginExamplePlugin.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/views/DismissViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/views/RootViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/views/TempStoryboard.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/views/TempViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/views/TempViewController.xib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/CTC-BM-0aF-view-fgX-Uh-YMG.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/CTC-BM-0aF-view-fgX-Uh-YMG.nib/objects-11.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/CTC-BM-0aF-view-fgX-Uh-YMG.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/CTC-BM-0aF-view-fgX-Uh-YMG.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/UIViewController-CTC-BM-0aF.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/UIViewController-CTC-BM-0aF.nib/objects-11.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/UIViewController-CTC-BM-0aF.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/UIViewController-CTC-BM-0aF.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/ekg-k5-fXM-view-62m-jH-oAt.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/ekg-k5-fXM-view-62m-jH-oAt.nib/objects-11.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/ekg-k5-fXM-view-62m-jH-oAt.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/ekg-k5-fXM-view-62m-jH-oAt.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/myVCID.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/myVCID.nib/objects-11.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/myVCID.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTStoryboard.storyboardc/myVCID.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTframework" beforeDir="false" afterPath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/VNPTframework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/ios/frameworks/VNPTframework.framework/_CodeSignature/CodeResources" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
