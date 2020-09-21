@@ -29,6 +29,7 @@ class Native: NSObject, TextEditChangedObserver {
     }
     
     func textEditChanged(text: String?) {
+        print ("aaaaa")
         Native.shared.eventHandler.sink?(text)
     }
 }
