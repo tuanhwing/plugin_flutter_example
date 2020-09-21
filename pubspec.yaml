@@ -1,8 +1,8 @@
 name: plugin_example
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+#author: tuanhwing2014@gmail.com
+homepage: https://github.com/tuanhwing/plugin_flutter_example
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

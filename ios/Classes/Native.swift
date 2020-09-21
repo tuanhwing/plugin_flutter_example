@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import VNPTframework
 
-class Native: NSObject {
+class Native: NSObject, TextEditChangedObserver {
     
     static let shared = Native();
     
@@ -16,25 +17,18 @@ class Native: NSObject {
     
     override init() {
         super.init()
+        VNPTNative.shared.addObserver(self)
     }
 
     func getPlatformVersion(callback: @escaping FlutterResult) {
-        callback(("iOS " + UIDevice.current.systemVersion));
+        callback(("iOS " + VNPTNative.shared.getPlatformVersion()));
     }
     
-    func showViewController() {
-        let tempController = TempViewController(nibName: "TempViewController", bundle: Bundle(for: self.classForCoder))
-        UIApplication.shared.windows.first?.rootViewController?.present(tempController, animated: true, completion: nil)
+    func showStoryboard(params:Dictionary<String, String>? = nil) {
+        VNPTNative.shared.showStoryboard(params: params)
     }
     
-    func showStoryboard() {
-        let storyboard = UIStoryboard(name: "TempStoryboard", bundle: Bundle(for: self.classForCoder))
-        let vc = storyboard.instantiateViewController(withIdentifier: "myVCID")
-        UIApplication.shared.windows.first?.rootViewController?.present(vc, animated: true)
+    func textEditChanged(text: String?) {
+        Native.shared.eventHandler.sink?(text)
     }
-    
-    func callbackFlutter() {
-        Native.shared.eventHandler.sink?(["native_param1" : "value1"])
-    }
-    
 }

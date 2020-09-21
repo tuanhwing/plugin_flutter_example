@@ -17,11 +17,14 @@ public class SwiftPluginExamplePlugin: NSObject, FlutterPlugin {
         Native.shared.getPlatformVersion(callback: result)
     }
     else if (call.method == "showNative") {
-        if let params = call.arguments {
+        if let params = call.arguments as? Dictionary<String, String>{
             Native.shared.params = params
+            Native.shared.showStoryboard(params:params)
+            return
         }
-        
         Native.shared.showStoryboard()
+        
+        
     }
   }
 }
