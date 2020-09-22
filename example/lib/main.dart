@@ -18,6 +18,7 @@ class _MyAppState extends State<MyApp> {
 
   StreamSubscription _subscription;
   final List<String> _strings = [];
+  final TextEditingController _textEditingController = TextEditingController();
 
   @override
   void initState() {
@@ -70,10 +71,16 @@ class _MyAppState extends State<MyApp> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
+                Container(
+                  margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                  child: TextField(
+                    controller: _textEditingController,
+                  ),
+                ),
                 Text('Running on: $_platformVersion\n'),
                 RaisedButton(
                   onPressed: () {
-                    PluginExample().showNative({'param1':'value1', 'param2':'value2'});
+                    PluginExample().showNative({'param1':'${_textEditingController.text}'});
                   },
                   child: Text('Open Native'),
                 ),
