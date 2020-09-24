@@ -8,7 +8,7 @@
 import UIKit
 import VNPTframework
 
-class Native: NSObject, TextEditChangedObserver {
+class Native: NSObject, TextEditChangedObserver,CommunicationWithAnother {
     
     static let shared = Native();
     
@@ -18,6 +18,7 @@ class Native: NSObject, TextEditChangedObserver {
     override init() {
         super.init()
         VNPTNative.shared.addObserver(self)
+        VNPTNative.shared.communication = self
     }
 
     func getPlatformVersion(callback: @escaping FlutterResult) {
@@ -29,6 +30,10 @@ class Native: NSObject, TextEditChangedObserver {
     }
     
     func textEditChanged(text: String?) {
-        Native.shared.eventHandler.sink?(text)
+        Native.shared.eventHandler.sink?(["native1" : text])
+    }
+    
+    func openNative2(text: String) {
+        Native.shared.eventHandler.sink?(["open_native2" : true, "param" : text])
     }
 }

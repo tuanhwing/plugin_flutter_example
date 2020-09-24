@@ -33,9 +33,15 @@ class _MyAppState extends State<MyApp> {
     try {
       platformVersion = await PluginExample().platformVersion;
       _subscription = PluginExample().startListening((msg) {
-        setState(() {
-          _strings.add("${msg}");
-        });
+        if (msg.toString().contains("open_native2")) {
+          print("open native2 ");
+        }
+        else {
+          setState(() {
+            _strings.add("${msg}");
+          });
+        }
+
       });
 
     } on PlatformException {
