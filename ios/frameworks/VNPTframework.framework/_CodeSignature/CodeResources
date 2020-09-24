@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VNPTframework-Swift.h</key>
 		<data>
-		KTcTpP77fhjD0QmfRCoOxvAz1p8=
+		jOuGuYogzJx2PyefK3y7nE23ZBI=
 		</data>
 		<key>Headers/VNPTframework.h</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		d7Utfer4fX61wbxWD6KOmiTZ75o=
+		/LiRBdyhCOzEXvmtUjMM9eYGOIs=
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<data>
-		d7Utfer4fX61wbxWD6KOmiTZ75o=
+		/LiRBdyhCOzEXvmtUjMM9eYGOIs=
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		pLrpV0eZ1Avl/pT28o5K+wQgfvo=
+		hR+9CNqTPVrHZy2Xks3YB6mPnfc=
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		pLrpV0eZ1Avl/pT28o5K+wQgfvo=
+		hR+9CNqTPVrHZy2Xks3YB6mPnfc=
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		khLH/61JWstbsZ1IzLxmzCFUXSE=
+		T4ZBo538uGWb6oVdW9lNkCA/T/E=
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/i386.swiftmodule</key>
 		<data>
-		khLH/61JWstbsZ1IzLxmzCFUXSE=
+		T4ZBo538uGWb6oVdW9lNkCA/T/E=
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SH2TW/3IX46K7Ej04FUIOULZEWE=
+		e7eBQnrRex+JKyXqI1HxxLomxmk=
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/VNPTframework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		SH2TW/3IX46K7Ej04FUIOULZEWE=
+		e7eBQnrRex+JKyXqI1HxxLomxmk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KTcTpP77fhjD0QmfRCoOxvAz1p8=
+			jOuGuYogzJx2PyefK3y7nE23ZBI=
 			</data>
 			<key>hash2</key>
 			<data>
-			IZkt02iSb6DDeXSpf3+x42XHoubnBcLT6gXi4itKQPk=
+			/GPCTzvqy2WBPaxWrZndGKkTdKimZr+2vXujPs4YSUE=
 			</data>
 		</dict>
 		<key>Headers/VNPTframework.h</key>
@@ -117,44 +117,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d7Utfer4fX61wbxWD6KOmiTZ75o=
+			/LiRBdyhCOzEXvmtUjMM9eYGOIs=
 			</data>
 			<key>hash2</key>
 			<data>
-			1ALaCox0R6DkdUi9oYPnZXrIilXCqYLKShHuoeEIye8=
+			Kwtm3HhgJvNlnJU38CdTJFO3d5Pp7IPPsoPz8hcpD3Y=
 			</data>
 		</dict>
 		<key>Modules/VNPTframework.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d7Utfer4fX61wbxWD6KOmiTZ75o=
+			/LiRBdyhCOzEXvmtUjMM9eYGOIs=
 			</data>
 			<key>hash2</key>
 			<data>
-			1ALaCox0R6DkdUi9oYPnZXrIilXCqYLKShHuoeEIye8=
+			Kwtm3HhgJvNlnJU38CdTJFO3d5Pp7IPPsoPz8hcpD3Y=
 			</data>
 		</dict>
 		<key>Modules/VNPTframework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pLrpV0eZ1Avl/pT28o5K+wQgfvo=
+			hR+9CNqTPVrHZy2Xks3YB6mPnfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yf3agi2eHQnB8/gu0hWtvivFPdg2EPuDK8YwYyzR+JA=
+			D6ba3w3Ai9zjgLm9L2BBf2u1PvOX+hx50vc9JhzgM8Q=
 			</data>
 		</dict>
 		<key>Modules/VNPTframework.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pLrpV0eZ1Avl/pT28o5K+wQgfvo=
+			hR+9CNqTPVrHZy2Xks3YB6mPnfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yf3agi2eHQnB8/gu0hWtvivFPdg2EPuDK8YwYyzR+JA=
+			D6ba3w3Ai9zjgLm9L2BBf2u1PvOX+hx50vc9JhzgM8Q=
 			</data>
 		</dict>
 		<key>Modules/VNPTframework.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -172,11 +172,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			khLH/61JWstbsZ1IzLxmzCFUXSE=
+			T4ZBo538uGWb6oVdW9lNkCA/T/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			tPQo0X+NxHY/r3zigjqE+VmxWhkRglAx7Wh3+/9q1G0=
+			w45vbDUv9slH4ixhk7sBo5dovqxT8S9eXbTcuQ9LkdA=
 			</data>
 		</dict>
 		<key>Modules/VNPTframework.swiftmodule/i386.swiftdoc</key>
@@ -194,11 +194,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			khLH/61JWstbsZ1IzLxmzCFUXSE=
+			T4ZBo538uGWb6oVdW9lNkCA/T/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			tPQo0X+NxHY/r3zigjqE+VmxWhkRglAx7Wh3+/9q1G0=
+			w45vbDUv9slH4ixhk7sBo5dovqxT8S9eXbTcuQ9LkdA=
 			</data>
 		</dict>
 		<key>Modules/VNPTframework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -216,11 +216,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SH2TW/3IX46K7Ej04FUIOULZEWE=
+			e7eBQnrRex+JKyXqI1HxxLomxmk=
 			</data>
 			<key>hash2</key>
 			<data>
-			EYE85lhftwyDxlIR7BetVPY2Si/NOYHuuZYs9KsBXZA=
+			x8FWB6EZ7jZhNYrnWiNnnoQ/oCOD9KwKOQNN1qCE/6U=
 			</data>
 		</dict>
 		<key>Modules/VNPTframework.swiftmodule/x86_64.swiftdoc</key>
@@ -238,11 +238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SH2TW/3IX46K7Ej04FUIOULZEWE=
+			e7eBQnrRex+JKyXqI1HxxLomxmk=
 			</data>
 			<key>hash2</key>
 			<data>
-			EYE85lhftwyDxlIR7BetVPY2Si/NOYHuuZYs9KsBXZA=
+			x8FWB6EZ7jZhNYrnWiNnnoQ/oCOD9KwKOQNN1qCE/6U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
